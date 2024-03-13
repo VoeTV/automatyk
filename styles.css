@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    background-image: url('train_background.jpg'); /* Załaduj odpowiedni obrazek pociągu */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Dostosuj przezroczystość */
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type=file], select {
+    display: block;
+    margin: 10px auto;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
